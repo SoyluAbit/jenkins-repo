@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.neotech.runners.RegressionRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.23 s <<< FAILURE! -- in com.neotech.runners.RegressionRunner
+Dashboard menu.Dasboard menu items for Admin -- Time elapsed: 9.899 s <<< FAILURE!
+java.lang.AssertionError: 
+expected:<[Admin, PIM, My Info, Discipline, Reports Catalog, More, Maintenance]> but was:<[Admin, PIM, My Info, Discipline, Reports Catalog, More
+Announcements
+Documents
+News
+Dashboard
+Buzz
+Directory
+Organization Chart
+Preferences
+Assets, Maintenance]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.neotech.steps.DashboardSteps.i_want_to_validate_them_items_on_the_menu(DashboardSteps.java:41)
+	at ✽.I want to validate them items on the menu(file:///Users/abitsoylu/eclipse-workspace/CucumberFrameWorkAbit7/src/test/resources/features/Dashboard.feature:8)
+
