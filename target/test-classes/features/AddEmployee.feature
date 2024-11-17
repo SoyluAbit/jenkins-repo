@@ -6,7 +6,7 @@ Feature: Add Employee Feature
     Given user is logged in with valid credentials
     And user navigates to AddEmployee page
 
-  @AddEmployee
+  @smoke
   Scenario: Add Employee with first and last name
     When user enters employee first name and last name
     And user selects a location

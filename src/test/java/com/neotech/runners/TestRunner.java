@@ -23,7 +23,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true, 
 		
 		//I can define a tag or a combination of tags to run scenarios that have those tags
-		tags = "@smoke",
+		tags = "@menu",
 
 		plugin = {
 				// prints the Gherkin scenario(s) steps to the console
