@@ -72,7 +72,7 @@
 				<version>3.2.5</version>
 				<configuration>
 					<includes>
-						<include>**/*RegressionRunner.java</include>
+						<include>**/*TestRunner.java</include>
 					</includes>
 				</configuration>
 			</plugin>
